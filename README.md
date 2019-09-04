@@ -17,6 +17,8 @@ In your `config/services.php` file enter:
 ],
 ```
 
+Notice here that the region is not necessarily your standard `AWS_DEFAULT_REGION` as only certain regions allow SMS messages to be sent from them. [Click here](https://docs.aws.amazon.com/sns/latest/dg/sns-supported-regions-countries.html) for a list of nodes that allow SMS.
+
 Be sure that the user who owns your access key and secret has at least the following policy on AWS IAM:
 
 ```json
