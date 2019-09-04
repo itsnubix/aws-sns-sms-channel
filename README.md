@@ -1,5 +1,8 @@
 # AWS SNS SMS Notifications Channel for Laravel
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Total Downloads](https://img.shields.io/packagist/dt/itsnubix/aws-sns-sms-channel.svg?style=flat-square)](https://packagist.org/packages/kylemilloy/edamam-php)
+
 ## Installation
 
 `composer require itsnubix/aws-sns-sms-channel`
