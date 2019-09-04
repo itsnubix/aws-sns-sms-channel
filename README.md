@@ -1,7 +1,13 @@
 # AWS SNS SMS Notifications Channel for Laravel
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Total Downloads](https://img.shields.io/packagist/dt/itsnubix/aws-sns-sms-channel.svg?style=flat-square)](https://packagist.org/packages/itsnubix/aws-sns-sms-channel)
+[![Build Status](https://travis-ci.org/itsnubix/aws-sns-sms-channel.svg?branch=master)](https://travis-ci.org/itsnubix/aws-sns-sms-channel/)
+[![Latest Stable Version](https://poser.pugx.org/itsnubix/aws-sns-sms-channel/v/stable.svg)](https://poser.pugx.org/itsnubix/aws-sns-sms-channel)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+
+<a href="#" data-toggle="modal" data-target="#badge-modal">
+    <img src="https://github.styleci.io/repos/205442513/shield?branch=master" alt="StyleCI Shield">
+</a>
 
 ## Installation
 

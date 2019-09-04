@@ -19,11 +19,20 @@
       "Nubix\\Notifications\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Nubix\\Tests\\Notifications\\": "tests/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
         "Nubix\\Notifications\\SmsChannelServiceProvider"
       ]
     }
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.2@dev",
+    "phpunit/phpunit": "^8.4@dev"
   }
 }
