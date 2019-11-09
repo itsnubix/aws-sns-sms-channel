@@ -81,3 +81,33 @@ class SendHelloText extends Notification
     }
 }
 ```
+
+Finally you'll need to extend your notifiable class with the following function so it knows how to route SMS notifications.
+
+```php
+<?php
+namespace App;
+
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Notifications\Notification;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+class User extends Authenticatable
+{
+    use Notifiable;
+
+    /**
+     * Return the SMS notification routing information.
+     *
+     * @param \Illuminate\Notifications\Notification|null $notification
+     *
+     * @return mixed
+     */
+    public function routeNotificationForSms(?Notification $notification = null)
+    {
+        return $this->phone_number;
+    }
+}
+```
+
+Need more help? [Read the article here](https://medium.com/@kylemilloy/sending-sms-messages-with-laravel-and-amazon-sns-a2183af9d90d)
