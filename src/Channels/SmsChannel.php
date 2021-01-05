@@ -23,8 +23,8 @@ class SmsChannel
     /**
      * Send the given notification.
      *
-     * @param mixed                                  $notifiable
-     * @param \Illuminate\Notifications\Notification $notification
+     * @param mixed $notifiable
+     * @param Notification $notification
      *
      * @return \Aws\Result
      */
