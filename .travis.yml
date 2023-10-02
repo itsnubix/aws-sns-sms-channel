@@ -8,6 +8,8 @@ php:
   - '7.3'
   - '7.4'
   - '8.0'
+  - '8.1'
+  - '8.2'
 
 env:
   matrix:
@@ -15,6 +17,8 @@ env:
     - LARAVEL=^6.0
     - LARAVEL=^7.0
     - LARAVEL=^8.0
+    - LARAVEL=^9.0
+    - LARAVEL=^10.0
 
 matrix:
   fast_finish: true
